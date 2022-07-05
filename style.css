@@ -1,0 +1,155 @@
+* {
+    margin: o;
+    border: o;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.skip {
+    color: orange;
+}
+
+.skip-letter {
+    font-size: 40px;
+}
+
+.letter-sec {
+    width: 60%;
+    margin-top: 120px;
+    margin-left: 150px;
+    padding-bottom: 50px;
+
+}
+
+.first-sec {
+    display: flex;
+}
+
+.para1 {
+    font-size: 25px;
+    padding-bottom: 50px;
+    margin-right: 300px;
+    text-align: justify;
+}
+
+.btn {
+    text-decoration: none;
+    border: 0px solid orange;
+    padding: 10px 40px;
+    border-radius: 25px;
+    font-size: 30px;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    font-weight: 700;
+    box-shadow: 5px 5px 16px orange;
+
+}
+
+.btn:hover {
+    box-shadow: 10px 10px 20px orange;
+
+}
+
+.first-image img {
+    width: 60%;
+}
+
+.second-section {
+    background-image: url(./image/7.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
+
+.about-me-pic img {
+    width: 400px;
+    margin-top: 80px;
+    margin-left: 200px;
+
+}
+
+.about-me-para {
+    width: 100%;
+    margin-top: 100px;
+    margin-left: 250px;
+}
+
+.about {
+    font-size: 50px;
+}
+
+.third-section {
+    text-align: center;
+    padding-left: 30%;
+    padding-right: 30%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.forth-section {
+    display: flex;
+    padding-bottom: 50px;
+    width: 50%;
+}
+
+.card1 img {
+    width: 500px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.card1 {
+    width: 500px;
+    border: 0px solid gray;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 300px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 40px gray;
+    transition: .5s;
+}
+
+.card1:hover {
+    margin-top: 20px;
+}
+
+
+.five-section {
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 5px 5px 40px gray;
+    text-align: center;
+    justify-content: space-evenly;
+
+}
+
+.last {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.eat {
+    color: tomato;
+}
+
+.oppacitytag {
+    opacity: .8;
+}
+
+.fresh {
+    color: gray
+}
